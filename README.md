@@ -17,7 +17,7 @@ In this example you can check how to build and run a Spring Boot application wit
 
 - Create a new project and add your [pom.xml](pom.xml) with the required dependencies and plugins
   - spring-boot-starter-web - _to start the application context up and its web resources_
-  - spring-boot-starter-test - _as we will be adding a test to check that the context starts_
+  - spring-boot-starter-test - _as we will be adding a test to check that the application context starts_
   - spring-boot-maven-plugin - _a Spring's Maven plugin to compile the project as a stand-alone JAR_
   - maven-surefire-plugin - _a Maven's plugin to run the tests upon packaging_
 - Add the [application.properties](src/main/resources/application.properties) to optionally specify a context's path for the application if you want your application to start on _localhost:8080/{your_path}_
@@ -45,6 +45,7 @@ You have 3 different ways of starting your Spring Boot application
     ````bash
   mvn spring-boot:run
   ````
+After starting the application and browsing **localhost:8080/app** you should be able to see a _Whitelabel Error Page_ with a 404 status. Fear not! Your application is running but there are no web resources nor APIs mapped for that path.
 
 ---
 
@@ -67,7 +68,7 @@ En este ejemplo podrás ver cómo construir y arrancar una aplicación Spring Bo
 
 - Crea un nuevo proyecto y añade tu [pom.xml](pom.xml) con las dependencias y plugins que necesitarás
   - spring-boot-starter-web - _para arrancar el contexto y sus recursos web_
-  - spring-boot-starter-test - _ya que añadiremos un test para comprobar que el contexto arranca_
+  - spring-boot-starter-test - _ya que añadiremos un test para comprobar que el contexto de la aplicación arranca_
   - spring-boot-maven-plugin - _un plugin para Maven de Spring para compilar el proyecto como un JAR independiente_
   - maven-surefire-plugin - _un plugin de Maven para ejecutar los tests al empaquetar el proyecto_
 - Añade el [application.properties](src/main/resources/application.properties) para opcionalmente especificar una dirección del contexto y arrancar tu aplicación en _localhost:8080/{your_path}_
@@ -95,3 +96,5 @@ Tienes 3 diferentes maneras de arrancar tu aplicación Spring Boot
     ````bash
   mvn spring-boot:run
   ````
+
+Después de arrancar la aplicación y navegar a **localhost:8080/app** deberías poder ver un _Whitelabel Error Page_ con un estado 404. ¡No temas! Tu aplicación está arrancada pero no hay recursos web ni APIs mapeados para esa localización.

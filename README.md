@@ -36,7 +36,7 @@ In this example you can check how to build and run a Spring Boot application wit
 
 You have 3 different ways of starting your Spring Boot application
 - Simply run your main method located at [SpringBootBasicSetupApp.java](src/main/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupApp.java) from your IDE
-- Use Maven to package the JAR and run it with Java from a console
+- Use Maven to package the JAR (and run the test), and then run the JAR with Java from a console
   ````bash
   mvn clean package
   java -jar target/basic-setup.jar
@@ -92,7 +92,7 @@ En este ejemplo podrás ver cómo construir y arrancar una aplicación Spring Bo
 
 Tienes 3 diferentes maneras de arrancar tu aplicación Spring Boot
 - Simplemente arranca el método main localizado en [SpringBootBasicSetupApp.java](src/main/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupApp.java) desde tu IDE
-- Usa Maven para construir el JAR y lanzarlo con Java desde una consola
+- Usa Maven para construir el JAR (y lanzar el test), y seguidamente arrancar el JAR con Java desde una consola
   ````bash
   mvn clean package
   java -jar target/basic-setup.jar

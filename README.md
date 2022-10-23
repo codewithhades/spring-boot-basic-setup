@@ -6,7 +6,7 @@
 
 It provides production-ready features like metrics or health-checks and simplifies the build configuration overall.
 
-In this example you can check how to build and run a Spring Boot application with the basics
+In this example you can check how to build and run a Spring Boot application with the basics.
 
 ## Requirements
 
@@ -36,12 +36,12 @@ In this example you can check how to build and run a Spring Boot application wit
 
 You have 3 different ways of starting your Spring Boot application
 - Simply run your main method located at [SpringBootBasicSetupApp.java](src/main/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupApp.java) from your IDE
-- Use Maven to package the app and run it with java
+- Use Maven to package the JAR and run it with Java from a console
   ````bash
   mvn clean package
   java -jar target/basic-setup.jar
   ````
-- Call the Maven plugin by
+- Call the Maven plugin from a console
     ````bash
   mvn spring-boot:run
   ````
@@ -83,3 +83,15 @@ En este ejemplo podrás ver cómo construir y arrancar una aplicación Spring Bo
 - Opcionalmente crea un [SpringBootBasicSetupAppTest.java](src/test/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupAppTest.java) para corroborar que la aplicación arranca correctamente
 
 ## Cómo arrancarlo
+
+Tienes 3 diferentes maneras de arrancar tu aplicación Spring Boot
+- Simplemente arranca el método main localizado en [SpringBootBasicSetupApp.java](src/main/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupApp.java) desde tu IDE
+- Usa Maven para construir el JAR y lanzarlo con Java desde una consola
+  ````bash
+  mvn clean package
+  java -jar target/basic-setup.jar
+  ````
+- Ejecuta el plugin de Maven desde una consola
+    ````bash
+  mvn spring-boot:run
+  ````

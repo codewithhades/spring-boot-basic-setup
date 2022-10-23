@@ -5,8 +5,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.codewithhades.springboot</groupId>
-    <artifactId>basic-setup</artifactId>
+    <groupId>com.codewithhades</groupId>
+    <artifactId>spring-boot-basic-setup</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>

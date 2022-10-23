@@ -105,4 +105,4 @@ Después de arrancar la aplicación y navegar a **localhost:8080/app** deberías
 
 Espero que te haya sido útil este ejemplo, y si quieres ir un poco más lejos te recomiendo echarle un vistazo a este ejemplo de una aplicación [Spring Boot con una API](https://github.com/codewithhades/spring-boot-api).
 
-¡Que Java te acompañe!
+:coffee: ¡Que Java te acompañe!

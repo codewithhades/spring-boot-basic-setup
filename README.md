@@ -47,6 +47,8 @@ You have 3 different ways of starting your Spring Boot application
   ````
 After starting the application and browsing **localhost:8080/app** you should be able to see a _Whitelabel Error Page_ with a 404 status. Fear not! Your application is running but there are no web resources nor APIs mapped for that path.
 
+If you want to go now a bit further I can suggest you that you check an example of a [Spring Boot with an API](https://github.com/codewithhades/spring-boot-api).
+
 ---
 
 # :es: Spring Boot :wrench: Configuración básica
@@ -96,5 +98,6 @@ Tienes 3 diferentes maneras de arrancar tu aplicación Spring Boot
     ````bash
   mvn spring-boot:run
   ````
-
 Después de arrancar la aplicación y navegar a **localhost:8080/app** deberías poder ver un _Whitelabel Error Page_ con un estado 404. ¡No temas! Tu aplicación está arrancada pero no hay recursos web ni APIs mapeados para esa localización.
+
+Si quieres ir ahora un poco más lejos te recomiendo echarle un vistazo a este ejemplo de una aplicación [Spring Boot con una API](https://github.com/codewithhades/spring-boot-api).

@@ -30,7 +30,7 @@ In this example you can check how to build and run a Spring Boot application wit
       }
   }
   ````
-- Optionally create a [SpringBootBasicSetupAppTest.java](src/test/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupAppTest.java) to test that the application starts properly
+- Add a [SpringBootBasicSetupAppTest.java](src/test/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupAppTest.java) to test that the application starts properly
 
 ## How to run it
 
@@ -86,7 +86,7 @@ En este ejemplo podrás ver cómo construir y arrancar una aplicación Spring Bo
       }
   }
   ````
-- Opcionalmente crea un [SpringBootBasicSetupAppTest.java](src/test/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupAppTest.java) para corroborar que la aplicación arranca correctamente
+- Añade un [SpringBootBasicSetupAppTest.java](src/test/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupAppTest.java) para corroborar que la aplicación arranca correctamente
 
 ## Cómo arrancarlo
 

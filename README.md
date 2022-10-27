@@ -15,7 +15,7 @@ But before we continue you need to make sure that the following is installed
 - [Maven](https://maven.apache.org/) - _for project management_
 - [JDK](https://www.oracle.com/java/technologies/downloads) - _this is example is built on version 18_
 
-## How to build it
+## How to configure Spring Boot
 
 - Create a new project and add your [pom.xml](pom.xml) with the required dependencies and plugins
   - spring-boot-starter-web - _to start the application context up and its web resources_
@@ -73,7 +73,7 @@ Pero antes de nada, necesitarás tener instalado
 - [Maven](https://maven.apache.org/) - _para la gestión del proyecto_
 - [JDK](https://www.oracle.com/java/technologies/downloads) - _este ejemplo está construido en la versión 18_
 
-## Cómo construirlo
+## Cómo configurar Spring Boot
 
 - Crea un nuevo proyecto y añade tu [pom.xml](pom.xml) con las dependencias y plugins que necesitarás
   - spring-boot-starter-web - _para arrancar el contexto y sus recursos web_

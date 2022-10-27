@@ -1,14 +1,16 @@
 # :uk: Spring Boot :wrench: Basic setup
 
-## About this example
+## About Spring Boot
 
 [Spring Boot](https://spring.io/projects/spring-boot) allows you to create stand-alone Spring applications by embedding an application server.
 
 It provides production-ready features like metrics or health-checks and simplifies the build configuration overall.
 
+## About this example
+
 In this example you can check how to build and run a Spring Boot application with the basics.
 
-## Requirements
+But before we continue you need to make sure that the following is installed
 
 - [Maven](https://maven.apache.org/) - _for project management_
 - [JDK](https://www.oracle.com/java/technologies/downloads) - _this is example is built on version 18_
@@ -56,15 +58,17 @@ I hope you found this example useful and if you now want to go a bit further I c
 
 # :es: Spring Boot :wrench: Configuración básica
 
-## Acerca de este proyecto
+## Acerca de Spring Boot
 
 [Spring Boot](https://spring.io/projects/spring-boot) te ofrece la posibilidad de crear aplicaciones Spring que son independientes al contener embebido un servidor de aplicaciones.
 
 Proporciona herramientas listas para producción como métricas o health-checks, y simplifica la configuración en general.
 
+## Acerca de este ejemplo
+
 En este ejemplo podrás ver cómo construir y arrancar una aplicación Spring Boot con lo básico.
 
-## Requisitos
+Pero antes de nada, necesitarás tener instalado
 
 - [Maven](https://maven.apache.org/) - _para la gestión del proyecto_
 - [JDK](https://www.oracle.com/java/technologies/downloads) - _este ejemplo está construido en la versión 18_

@@ -1,4 +1,4 @@
-# :uk: Spring Boot :wrench: Basic setup
+# Spring Boot :wrench: Basic setup
 
 ## About Spring Boot
 

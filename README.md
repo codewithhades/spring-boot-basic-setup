@@ -1,6 +1,6 @@
 # Spring Boot :wrench: Basic setup
 
-## About Spring Boot
+## About Spring Boot and this example
 
 [Spring Boot](https://spring.io/projects/spring-boot) allows you to create stand-alone Spring applications by embedding an application server.
 

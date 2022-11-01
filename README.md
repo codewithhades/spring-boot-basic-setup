@@ -49,6 +49,6 @@ You have 3 different ways of starting your Spring Boot application
   ````
 After starting the application and browsing **localhost:8080/app** you should be able to see a _Whitelabel Error Page_ with a 404 status. Fear not! Your application is running but there are no web resources nor APIs mapped for that path.
 
-I hope you found this example useful and if you want to keep learning something about Spring Boot you can check this example where we deploy a [Spring Boot REST API](https://github.com/codewithhades/spring-boot-api).
+I hope you found this example useful and if you want to keep learning something about Spring Boot you can check this example where we deploy a [Spring Boot REST API](https://github.com/codewithhades/spring-boot-rest-api).
 
 :coffee: May Java be with you!

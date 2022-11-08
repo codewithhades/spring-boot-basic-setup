@@ -22,7 +22,7 @@ You are going to need only 2 things
   - spring-boot-starter-test - _as we will be adding a test to check that the application context starts_
   - spring-boot-maven-plugin - _a Spring's Maven plugin to compile the project as a stand-alone JAR_
   - maven-surefire-plugin - _a Maven's plugin to run the tests upon packaging_
-- Add the [application.properties](src/main/resources/application.properties) to optionally specify a context's path for the application if you want your application to start on _localhost:8080/{your_path}_
+- Add the [application.properties](src/main/resources/application.properties) to specify a context path such as _/app_
 - Create a Java class such as [SpringBootBasicSetup.java](src/main/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetup.java) with a main method that starts the Spring application. Annotate this class with @SpringBootApplication in order to provide the entry point of the application
   ````java
   @SpringBootApplication
@@ -47,8 +47,10 @@ You have 3 different ways of starting your Spring Boot application
     ````bash
   mvn spring-boot:run
   ````
-After starting the application and browsing [localhost:8080/app](http://localhost:8080/app) you should be able to see a _Whitelabel Error Page_ with a 404 status. Fear not! Your application is running but there are no web resources nor APIs mapped for that path.
+After starting the application and browsing [localhost:8080/app](http://localhost:8080/app) you should be able to see a _Whitelabel Error Page_ with a 404 status.
 
-I hope you found this example useful and if you want to keep learning something about Spring Boot you can check this example where we deploy a [Spring Boot REST API](https://github.com/codewithhades/spring-boot-rest-api).
+Fear not! Your application is running but you haven't deployed yet any web resources. If you wish to do so you can check how in this example where we deploy a [Spring Boot REST API](https://github.com/codewithhades/spring-boot-rest-api).
+
+I hope you found this example useful!
 
 :coffee: May Java be with you!

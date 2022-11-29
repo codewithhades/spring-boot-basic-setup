@@ -17,22 +17,25 @@ You are going to need only 2 things
 
 ## How to configure Spring Boot
 
-- Create a new project and add your [pom.xml](pom.xml) with the required dependencies and plugins
+Create a new project and add your [pom.xml](pom.xml) with the required dependencies and plugins
   - spring-boot-starter-web - _to start the application context up and its web resources_
   - spring-boot-starter-test - _as we will be adding a test to check that the application context starts_
   - spring-boot-maven-plugin - _a Spring's Maven plugin to compile the project as a stand-alone JAR_
   - maven-surefire-plugin - _a Maven's plugin to run the tests upon packaging_
-- Add the [application.properties](src/main/resources/application.properties) to specify a context path such as _/app_
-- Create a Java class such as [SpringBootBasicSetup.java](src/main/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetup.java) with a main method that starts the Spring application. Annotate this class with @SpringBootApplication in order to provide the entry point of the application
-  ````java
-  @SpringBootApplication
-  public class SpringBootBasicSetup {
-      public static void main(String[] args) {
-          SpringApplication.run(SpringBootBasicSetup.class, args);
-      }
-  }
-  ````
-- Add a [SpringBootBasicSetupTest.java](src/test/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupTest.java) to test that the application starts properly
+
+Add the [application.properties](src/main/resources/application.properties) to specify a context path such as _/app_
+
+Create a Java class such as [SpringBootBasicSetup.java](src/main/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetup.java) with a main method that starts the Spring application. Annotate this class with @SpringBootApplication in order to provide the entry point of the application
+````java
+@SpringBootApplication
+public class SpringBootBasicSetup {
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootBasicSetup.class, args);
+    }
+}
+````
+
+Add a [SpringBootBasicSetupTest.java](src/test/java/com/codewithhades/springboot/basicsetup/SpringBootBasicSetupTest.java) to test that the application starts properly
 
 ## How to start the Spring boot application
 

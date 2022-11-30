@@ -54,6 +54,8 @@ After starting the application and browsing [localhost:8080/app](http://localhos
 
 Fear not! Your application is running but you haven't deployed yet any web resources. If you wish to do so you can check how in this example where we deploy a [Spring Boot REST API](https://github.com/codewithhades/spring-boot-rest-api).
 
-I hope you found this example useful!
+## And before you go...
+
+:pray: I hope you find this example useful and if you want to support me in my mission to help our fellow Java developers please consider sponsoring this space!
 
 :coffee: May Java be with you!

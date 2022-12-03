@@ -56,6 +56,6 @@ Fear not! Your application is running but you haven't deployed yet any web resou
 
 ## And before you go...
 
-:pray: I hope you find this example useful and if you want to support me in my mission to help our fellow Java developers please consider sponsoring this space!
+:pray: I hope you find this example useful and if you want to support me in my mission to help our fellow Java developers please consider starring and sponsoring this space!
 
 :coffee: May Java be with you!

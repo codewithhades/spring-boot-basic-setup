@@ -13,7 +13,7 @@ In this example you can check how to simply build and run a Spring Boot applicat
 You are going to need only 2 things
 
 - [Maven](https://maven.apache.org/), for project management
-- A [JDK](https://www.oracle.com/java/technologies/downloads). This is example is built on version 18
+- A [JDK](https://www.oracle.com/java/technologies/downloads). This is example is built on version 19
 
 ## How to configure Spring Boot
 
